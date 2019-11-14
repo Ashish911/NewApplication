@@ -4,12 +4,11 @@ public class Area {
 
     //Properties
     private int Radius;
-    private double pi = 3.14;
     //Constructor
 
     //Behavior
     public double AreaCircle(){
-        return pi * Radius * Radius;
+        return Math.PI * Radius * Radius;
     }
 
     public int getRadius() {
